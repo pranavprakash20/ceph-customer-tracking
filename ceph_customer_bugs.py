@@ -222,11 +222,11 @@ class FetchCustomerData:
 
 
 obj = FetchCustomerData(url="bugzilla.redhat.com",
-                        api_key="qwr8Ciw5t37lT9CvplWJbFrdlvsXjRAv1MZpWfSC",
+                        api_key="",
                         db_name="postgres",
                         db_user="postgres",
-                        db_password="admin",
-                        db_host="10.0.209.12",
+                        db_password="",
+                        db_host="",
                         db_port="5432")
 print("\n\n\n===================================================")
 print("Execution started : ", datetime.now())
